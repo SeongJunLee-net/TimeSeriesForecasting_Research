@@ -1,0 +1,3 @@
+LSTM을 1440정도나 되는 input sequence에 사용하게 되면 아무리 gate mechanism을 적용을해도 필연적으로 앞에 거에 대해서는 반영하지 못하게 된다
+따라서 더 가벼운 DNN으로 이문제를 해결하고자 한다
+또한 이전에는 Trend의 kernel size가 작아서 Trend안에 seasonality가 포함돼있다고 봐도 무방했다 따라서 kernel size를 input sequence 길이만큼 키우고 또한 window가 겹치지 않게 하면서 이문제를 해결해 보겠다

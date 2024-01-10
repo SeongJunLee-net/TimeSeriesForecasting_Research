@@ -1,0 +1,6 @@
+[online-learning-DLinear]
+seq_len = 1440
+pred_len = 1
+individual = False
+enc_in = 1
+
