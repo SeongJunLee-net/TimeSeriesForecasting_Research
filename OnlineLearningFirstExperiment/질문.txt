@@ -1,0 +1,7 @@
+시계열 데이터는 over training이 없나?
+online learning에서 최적값을 맞췄는데 성능이 더떨어진 이유는?
+초기훈련없이 Online learning만 진행하게되면?
+Val_loader의 쓰임 질문 --> transformer계열은 validation데이터셋이 prediction length보다 작으면 안됨
+딥러닝 모델의 1step 예측의 목적은 갑작스러운 변화에 대응하기 위해서가 아닌가?
+-> sliding된 결과가 결과가 나쁘지 않은 경우가 있다
+-> Mart Data로의 필요성
